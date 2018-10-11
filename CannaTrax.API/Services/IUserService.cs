@@ -10,5 +10,6 @@ namespace CannaTrax.API.Services
     {
         UserModel AddUser(UserModel user);
         Dictionary<string, UserModel> GetUsers();
+        UserModel Authenticate(string username, string password);
     }
 }
