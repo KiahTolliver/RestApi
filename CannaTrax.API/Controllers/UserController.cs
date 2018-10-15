@@ -16,7 +16,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace CannaTrax.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
